@@ -21,3 +21,7 @@ Despite the breakpoint at line 17 not being hit a breakpoint inside of a functio
 ### Reference Screenshot
 
 <img src="https://github.com/intere/DebugDeferBlocks/blob/master/defer_breakpoints_do_not_fire.gif?raw=true">
+
+### Open Radar
+
+I've filed a Radar ticket for this issue, and added it to [Open Radar #5048329775874048](https://openradar.appspot.com/radar?id=5048329775874048)
