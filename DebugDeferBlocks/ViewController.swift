@@ -14,12 +14,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         defer {
-            print("Defer breakpoint")
+            deferBreakpoint()
         }
 
         print("Non-defer breakpoint")
     }
 
-
+    func deferBreakpoint() {
+        print("Defer breakpoint")
+    }
 }
 
