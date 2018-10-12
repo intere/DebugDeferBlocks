@@ -4,6 +4,14 @@ I spent about an hour trying to figure out why I was seeing logging, but no brea
 
 It seems that any code inside of a `defer` block will have its breakpoints skipped.
 
+## Update (10/12/2018)
+Apple emailed me today, telling me that this is a duplicate of another radar:
+```
+Hello Eric,
+
+Engineering has determined that your bug report (45048050) is a duplicate of 42858960 and will be closed. 
+```
+
 
 ### Reproducing this issue
 1. Clone this project
